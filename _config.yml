@@ -2,8 +2,8 @@
 title: PHOTORAMA
 email: ""
 description: "Photo Journal"
-url: "https://pranavbhansali.com"
-baseurl: "/photos"
+url: "https://pranav-bh.github.io"
+baseurl: "/portfolio"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://pranav-bh.github.io/photorama/gallery/"  
+  - JOURNAL: "https://pranav-bh.github.io/photorama/journal/"
+  - ABOUT: "https://pranav-bh.github.io/photorama/about/"
 
 # All translation keys
 translations:
