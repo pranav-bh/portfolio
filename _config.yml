@@ -1,6 +1,6 @@
 # Site settings
-title: PHOTORAMA
-email: ""
+title: "Pranav's Photography"
+email: "_@pranavbhansali.com"
 description: "Photo Journal"
 url: "https://pranav-bh.github.io"
 baseurl: "/portfolio"
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Pranav Bhansali
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: photography website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
