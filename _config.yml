@@ -1,16 +1,16 @@
 # Site settings
 title: "Pranav's Photography"
-email: "_@pranavbhansali.com"
+email: "p@pranavbhansali.com"
 description: "Photo Journal"
-url: "https://pranav-bh.github.io"
-baseurl: "/portfolio"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+url: "https://pranavbhansali.com"
+baseurl: ""
+#facebook_username: ""
+#twitter_username: ""
+instagram_username: "___pranav"
+github_username:  "pranav-bh"
+#deviantart_username: ""
+#flickr_username: ""
+#discus_shortname: ""
 share: true
 
 # Owner/author information
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://pranav-bh.github.io/portfolio/gallery/"  
-  - JOURNAL: "https://pranav-bh.github.io/portfolio/journal/"
-  - ABOUT: "https://pranav-bh.github.io/portfolio/about/"
+  - GALLERY: "https://pranavbhansali.com/gallery/"  
+  #- JOURNAL: "https://pranavbhansali.com/portfolio/journal/"
+  #- ABOUT: "https://pranavbhansali.com/portfolio/about/"
 
 # All translation keys
 translations:
