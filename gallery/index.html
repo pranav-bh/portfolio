@@ -5,10 +5,10 @@ description: "archive"
 active: gallery
 header-img: "img/gallery-bg.jpg"
 images:
- - image_path: /gallery/albums/alb01.jpg
+ - image_path: https://lh3.googleusercontent.com/pw/AM-JKLVlyxuNSkYV9Sa-T5s7YPFzP4wAsNZgpPzyJ3QbJuax30aDmov3R8K2dZ2mTD1JSJzwpJAT5tPBLDFhFyZyvK_dyfWUlupScGb6g9aWL1hP01rd-oiuSBrvorVqCvdZ3Ftd1jYHCA4rP865BSepMA2K9A=w1872-h1428-no?authuser=0
    gallery-folder: /gallery/gallery01/
-   gallery-name: gallery1
-   gallery-date: July 2015
+   gallery-name: Astrophotography
+   gallery-date:
  - image_path: /gallery/albums/alb02.jpg
    gallery-folder: /gallery/gallery02/
    gallery-name: gallery2
@@ -65,9 +65,13 @@ images:
 	               <figure class="gallery-item">
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
-		       
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+					        
+						<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+						{% if image.image_path.startsWith("http") %}
+							<img src="{{ image.image_path }}"></a>
+						{% else %}
+							<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						{% endif %}
 
 					</header>	
 					<figcaption class='gallery-caption'>
