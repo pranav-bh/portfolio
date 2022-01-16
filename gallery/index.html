@@ -67,7 +67,7 @@ images:
 					<header class='gallery-icon'>
 					        
 						<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-						{% if str_starts_with(image.image_path, "http") %}
+						{% if image.image_path contains "http" %}
 							<img src="{{ image.image_path }}"></a>
 						{% else %}
 							<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
